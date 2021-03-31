@@ -2,9 +2,9 @@ I have completed my task that by using rest api endpoints like pause,resume,term
 
 Terminate endpoint will terminate the worker process if user wants to terminate a file upload to dashboard.
 
-This approach of using worker threads and implementing the pause,terminate,resume api endpoints will help and gets improved according when atlans data and dashboard is integrated with this small server.
+This approach of using worker threads and implementing the pause,terminate,resume api endpoints will help and gets improved according when your data and dashboard is integrated with this small server.
 
-There should be some changes required when integrating this task to atlan server.
+There should be some changes required when integrating this task to your server.
 
 
 API Endpoints are
@@ -32,7 +32,7 @@ userId:any id
 
 
 And there is test.js in root folder because i want to show you what i mean by stopping a readstream(check console for output)
-ReadStream should be paused because while reading from a file and writing to another file (writestream is slower) so we have to pause a readStream this can also be used while passing data from file to atlan collect dashboard.
+ReadStream should be paused because while reading from a file and writing to another file (writestream is slower) so we have to pause a readStream this can also be used while passing data from file to your dashboard.
 
 
 
